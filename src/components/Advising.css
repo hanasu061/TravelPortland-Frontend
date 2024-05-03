@@ -1,0 +1,29 @@
+.Advising {
+    text-align: center;
+    
+}
+
+.advisingCard {
+    margin-left: 20%;      
+    margin-right: 20%;
+    margin-top: 5%;      
+    margin-bottom: 5%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.cardAdvising {
+    border: none;
+    background: linear-gradient(
+        to right, 
+        rgb(177, 218, 154, 0.5),
+        rgb(98, 161, 203, 0.5)
+      );
+}
+
+.advisingInput {
+    border-radius: 10px;
+    border: none;
+    width: 50%;
+}

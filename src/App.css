@@ -1,0 +1,65 @@
+.App {
+ background-color: #fff7e8;
+  min-height: 60vh;
+}
+
+body {
+  overflow-x: auto;
+}
+
+.navbar {
+  height: 80px;
+  background-color: #fff7e8;
+}
+
+.navbar-collapse {
+  background-color: #fff7e8;
+}
+
+.navbar-toggle {
+  float: unset; 
+  margin-right: 0; 
+  background-color: #fff7e8;
+}
+
+.navbar-header { 
+  text-align: center; 
+  background-color: #fff7e8;
+}
+
+.nav-link {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+a.link-active {
+  color: #94bbb4;
+  text-decoration: underline;
+}
+
+.main-container {
+  margin-top: 20px;
+}
+
+.navbar-brand img {
+  top: 0;
+  left: 0;
+  height: 120%;
+  position:absolute;
+}
+
+footer {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  background-color: black;
+  padding: 30px;
+  width: 100%;
+  bottom: 0;
+  height: 230px;
+  background-color: #fff7e8;
+}
+
+#contactIcon {
+  margin: 10px;
+}

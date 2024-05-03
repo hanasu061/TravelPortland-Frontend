@@ -1,0 +1,150 @@
+.eat-detail-container {
+  padding: 20px;
+}
+
+.eat-info {
+  display: flex;
+  align-items: flex-start;
+}
+
+.eat-image {
+  flex: 1;
+  padding: 10px;
+  position: relative;
+}
+
+.eat-image img {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.eat-details {
+  flex: 2;
+  padding: 10px;
+}
+
+.eat-details h2 {
+  font-size: 24px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.eat-details p {
+  margin-top: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.left-arrow,
+.right-arrow {
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  margin-right: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: whitesmoke;
+  background-color: #a3cfc7;
+  border: none;
+  justify-content: center;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.left-arrow:hover,
+.right-arrow:hover {
+  background-color: cadetblue;
+}
+
+.left-arrow {
+  left: -5px;
+  display:block;
+}
+
+.right-arrow {
+  margin-left: 285px;
+  display:flex;
+}
+
+.poster {
+  width: 300px;
+  height: 300px;
+  max-height: 300px;
+}
+
+.poster-box {
+  scroll-snap-align: center;
+  width: 300px;
+  min-width: 250px;
+  height: 300px;
+  margin: 5px;
+  position: relative;
+  z-index: 1;
+  border-radius:  8px;
+  background-color: #fff7e8;
+  transition: opacity 0.3s ease-in;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-button,
+.edit-button {
+  padding: 8px 16px;
+  background-color: #a3cfc7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.review-button:hover, 
+.edit-button:hover {
+  background-color: cadetblue;
+}
+
+.reviews-section {
+  padding: 20px 0;
+  flex: 1;
+}
+
+.reviews-section h3 {
+  border:2px solid #a3cfc7;
+  border-radius:8px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 10px;
+  max-width: 130px;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.reviews {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #f9f3e6;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.eatsGroup {
+  padding: 20px;
+  margin: 10px;
+  max-width: 400px;
+}
+
+.reviewsText {
+  padding: 15px;
+  margin: 15px 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  align-items: center;
+}
+
+.reviewsText:hover {
+  background: rgba(161, 202, 195, 0.5);
+}

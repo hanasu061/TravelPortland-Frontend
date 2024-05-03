@@ -1,0 +1,56 @@
+
+.home-container {
+  position: relative;
+  text-align: center;
+  background-color:#fff7e8;
+}
+
+@font-face {
+  font-family: 'Tapioca';
+  src: url('../font/Tapioca.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Winlove';
+  src: url('../font/Winlove.ttf') format('truetype');
+}
+
+.introduction {
+  position: absolute;
+  margin: 30px 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  max-height: 200px;
+  flex:1;
+  width: 80%;
+  overflow: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.introduction h2 {
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: 'Winlove';
+  font-size: 2rem;
+  color: #a3cfc7;
+}
+
+.introduction p {
+  font-size: 30px;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-family: 'Tapioca';
+  color:rgb(93, 92, 92);
+}
+
+.lighthouse-container {
+  text-align: center;
+}
+
+.lighthouse-container img {
+  width: 100%;
+  height: auto;
+}

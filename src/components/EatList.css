@@ -1,0 +1,22 @@
+.pageNavEat {
+    text-align: center;
+}
+
+.eatsListCard:hover {
+    background: rgba(161, 202, 195, 0.5);
+    color: black;
+}
+
+.smallPosterEat {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.searchGroupEat {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+

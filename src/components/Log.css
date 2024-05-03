@@ -1,0 +1,13 @@
+.logoutLink {
+    background-image: url(/public/images/user.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+    border: none;
+}
+
+.loginLink {
+    width: 5%;
+    margin: 0 auto;
+}
